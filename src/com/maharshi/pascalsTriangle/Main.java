@@ -18,7 +18,6 @@ public class Main {
 			return list;
 		else {
 			for (int i = 0; i < numRows - 2; i++) {
-//				Get most last list to iterate
 				List<Integer> tempList1 = list.get(list.size() - 1);
 				List<Integer> tempList2 = new ArrayList<Integer>(Arrays.asList(1));
 				for (int j = 0; j < tempList1.size() - 1; j++) {
