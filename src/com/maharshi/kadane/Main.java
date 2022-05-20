@@ -18,7 +18,5 @@ public class Main {
 				cur = 0;
 		}
 		return maxsum;
-
 	}
-
 }
