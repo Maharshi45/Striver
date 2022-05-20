@@ -43,11 +43,9 @@ public class Main {
 		int[][] result = new int[list.size()][2];
 
 		for (int k = 0; k < list.size(); k++) {
-
 			List<Integer> tempList = list.get(k);
 			result[k][0] = tempList.get(0);
 			result[k][1] = tempList.get(1);
-
 		}
 
 		return result;
